@@ -29,7 +29,7 @@ class TcpClientApp
                 // Decode the response as UTF-8
                 string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
 
-                // Ensure console supports Unicode
+                // Ensure console supports Unicode 
                 response = response.Replace("?", "°");
                 Console.OutputEncoding = Encoding.UTF8;
                 Console.WriteLine("Received: " + response);
