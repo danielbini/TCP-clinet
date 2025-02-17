@@ -15,3 +15,4 @@
 /client/obj/Debug/net7.0/client.dll
 /client/obj/Debug/net7.0/client.genruntimeconfig.cache
 /client/obj/Debug/net7.0/client.pdb
+*.vsidx
